@@ -1,0 +1,101 @@
+
+:root{
+
+    --color-primary:#14b9d5;
+    --color-violet: #ba71da;
+    --color-btn-yellow: #ffd205;;
+    --col-btn-pink : #f76570;
+    --color-text-green: #1bbc9b;
+    --color-text-pink :#f76570;
+}
+
+
+
+/* Reset Css  */
+*{
+    box-sizing: inherit;
+}
+
+h1, h2 , h3 , h4 , h5 , h6 , p {
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.center{
+    text-align: center;
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100% ;
+    margin: 0 auto;
+}
+
+.grid-full-with{
+    width: 100%;
+}
+
+.grid-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{
+    width: 8.33333%;
+}
+
+.col-2{
+    width: 16.66666%;
+}
+
+.col-3{
+    width: 25.00%;
+}
+
+.col-4{
+    width: 33.33333%;
+}
+
+.col-5{
+    width: 41.66666%;
+}
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33333%;
+}
+
+.col-8{
+    width: 66.66666%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.33333%;
+}
+
+.col11{
+    width: 91.66666%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+/* btn */
+
+.book__now{
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px !important;
+}
+
+

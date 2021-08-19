@@ -1,0 +1,350 @@
+
+/*Header*/
+.header-navbar{
+    background-color: rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar__logo{
+ padding: 0 15px;
+ cursor: pointer;
+}
+
+.navbar__logo-img{
+    width: 160px;
+}
+
+.navbar__items{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+}
+
+.navbar-item{ 
+    font-size: 1.6rem;
+}
+
+.navbar-item a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 25px;
+}
+
+.navbar__btn{
+    margin-left: 16px;
+    background-color: var(--color-violet);
+}
+
+.navbar__sidebar-btn{
+
+}
+
+.navbar__sidebar-img{
+    width: 25px;
+}
+
+.header__slide{
+    position: relative;
+    top: 0;
+    padding-top: 270px;
+    padding-bottom: 200px;
+    background: url(/assets/img/parallax-2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.header__slider-content{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header__slide-title{
+    font-size: 50px;
+    line-height: 50px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.holiday-text{
+    position: relative;
+}
+
+.holiday-text::after{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    background-color: var(--color-violet);
+}
+
+.header__slide-note{
+    color: #fff;
+    line-height: 20px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.header__slide-option{
+    display: inline-block;
+    font-size: 15px;;
+}
+
+
+
+.header__slide-list-option{
+    position: relative;
+    width: 100%;
+    padding: 10px 25px ;
+    color: #a3a3a3;
+    border: 1px solid #f1f1f1;
+    outline:none;
+    cursor: pointer;
+    border-radius: 30px;
+    float: left;
+}
+
+option{
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.header__slide-list-option{
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+
+.header__slide-list-option::-ms-expand {
+    display: none;
+  }
+
+  /* header Search */
+  .header-search{
+    position: absolute;
+    right: 38%;
+    padding-top: 1px;
+  }
+
+  .header-search input{
+    background-image: url(/assets/img/icon-search-grey.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    background-size: 18px;
+    width: 47px;
+    height: 37px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Slider service */
+
+  .header__slide-services{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .slider-service{
+      width: 100%;
+    padding:  20px 3    0px;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+
+  .slider-service-link{
+    text-decoration: none;
+  }
+
+  .slider-service-img{
+      width: 45px;
+  }
+
+  .slider-service-name{
+    text-decoration: none;
+    font-size: 8px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: normal;
+  }
+
+  /* Content */
+  .content{
+      padding-top: 50px;
+  }
+
+  .content__title{
+
+  }
+
+  .content__title-first{
+      font-size: 1.4rem;
+      line-height: 14px;
+      font-weight: normal;
+      color: #a9a9a9;
+      letter-spacing: 2px;
+  }
+
+  .content__title-last{
+      font-size: 36px;
+      line-height: 36px;
+      color: #555555;
+      text-transform: uppercase;
+  }
+
+  .text-center{
+    text-decoration: none;
+    position: relative;
+  }
+
+  .text-center::after{
+      display: block;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 5px;
+      position: absolute;
+      background-color: #1bbc9b;
+      left: 0;
+  }
+
+    .content__location{
+        position: relative;
+        
+    }
+
+    .content__location-item{
+        padding: 15px;
+        position: relative;
+        
+    }
+
+    .content__location-img{
+        width: 100%;
+        position: relative;
+    }
+
+    .content__location-img img{
+        width: 100%;
+    }
+
+    .content__location-icon{
+        position: absolute;
+        padding-left: 25px;
+        padding-top: 25px;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    .content__location-icon img{
+        width: 35px;
+    }
+
+    .content__location-introduce{
+        position: absolute;
+        bottom: 35px;
+        left: 35px;
+        text-align:start;
+        z-index: 2;
+    }
+
+    .introduce__name{
+        font-size: 25px;
+        line-height: 25px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .introduce__number-packages{
+        font-size: 14px;
+        line-height: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #fff;
+        font-weight: normal ;
+    }  
+
+    .content__location-filter1{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 15px;
+        z-index: 1;
+    
+    }
+
+    .filter1{
+        background: linear-gradient(to bottom, rgba(101,100,96,0) 0%,rgba(101,100,96,0.1) 60%,rgba(101,100,96,0.65) 100%);
+        width: 100%;
+        height: 100%;
+    }
+
+    .content__location-filter{
+        position: absolute;
+        padding: 15px;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        z-index: 3;
+        transition-property: opacity;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+
+    }
+
+    .content__location-filter:hover{
+        opacity: 1;
+    }
+
+    .filter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #14b9d5;
+    }
+
+    .filter__title{
+        font-size: 20px;
+        line-height: 20px;
+        color: #fff;
+        letter-spacing: 2px;
+        user-select: none;
+    }
+
+    .filter__link {
+        text-decoration: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .filter__link p{
+        font-size: 14px;
+        line-height: 27px;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+
+    .filter__btn{
+        text-decoration: none;
+        color: #14b9d5;
+        background-color: #fff;
+        font-size: 14px;
+        line-height: 27px;
+        width: 160px;
+        margin: 0 auto;
+        border-radius: 30px;
+        }
